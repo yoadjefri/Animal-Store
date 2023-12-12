@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animal store | contact us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="layout">
+
+        <header>
+            <h1>Animal Store</h1>
+        </header>
+
+        <aside>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="animals.html">animals</a>
+                <a href="contact_us.html" class="active">Contact Us</a>
+            </nav>
+        </aside>
+
+        <main>
+            <div class="form-container">
+                <form action="save.html">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="name_box">Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="full_name" id="name_box" required minlength="2" maxlength="50">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="message_box">Message:</label>
+                                </td>
+                                <td>
+                                    <textarea name="message" id="message_box" required minlength="5" maxlength="1000"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button>Send</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p>All Rights Reserved ©</p>
+        </footer>
+
+    </section>
+
+</body>
+</html>
